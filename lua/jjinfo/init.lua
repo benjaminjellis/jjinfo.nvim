@@ -11,6 +11,5 @@ local jjinfo = require('jjinfo.jjinfo')
 --
 -- }
 M.setup = jjinfo.setup
-M.get_jjinfo_status = jjinfo.get_jjinfo_status
-M.get_status_line = jjinfo.get_status_line
+M.get_jj_info = jjinfo.get_jj_info
 return M
